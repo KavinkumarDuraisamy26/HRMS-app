@@ -136,6 +136,9 @@
   "ScreenOrder": [
     "BrowseScreen",
     "DetailScreen",
-    "EditScreen"
+    "EditScreen",
+    "Screen1",
+    "Loadingpage",
+    "Loginpage"
   ]
 }

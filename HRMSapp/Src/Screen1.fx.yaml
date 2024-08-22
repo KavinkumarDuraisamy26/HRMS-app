@@ -1,0 +1,20 @@
+Screen1 As screen:
+
+    Image1 As image:
+        Height: =1071
+        Image: =Splash
+        Width: =640
+        ZIndex: =1
+
+    Timer1 As timer:
+        AutoStart: =true
+        Duration: =3000
+        Height: =70
+        OnTimerEnd: =Navigate(Loadingpage,ScreenTransition.Fade)
+        OnTimerStart: =true
+        Visible: =false
+        Width: =280
+        X: =40
+        Y: =40
+        ZIndex: =2
+

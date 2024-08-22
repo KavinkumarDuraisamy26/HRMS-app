@@ -1,0 +1,69 @@
+Loginpage As screen:
+
+    Username As text:
+        Default: =
+        Height: =70
+        HintText: ="Username"
+        RadiusBottomLeft: =40
+        RadiusBottomRight: =40
+        RadiusTopLeft: =40
+        RadiusTopRight: =40
+        Size: =21
+        Width: =436
+        X: =90
+        Y: =458
+        ZIndex: =1
+
+    Password As text:
+        Default: =
+        Height: =70
+        HintText: ="Password"
+        Mode: =TextMode.Password
+        RadiusBottomLeft: =40
+        RadiusBottomRight: =40
+        RadiusTopLeft: =40
+        RadiusTopRight: =40
+        Size: =21
+        Width: =436
+        X: =90
+        Y: =608
+        ZIndex: =2
+
+    Button1 As button:
+        Height: =70
+        OnSelect: |
+            =If(
+                Username.Text = "admin" && Password.Text = "password123",
+                Navigate(BrowseScreen, ScreenTransition.Fade),
+                Set(varInvalidData, true)
+            )
+        RadiusBottomLeft: =40
+        RadiusBottomRight: =40
+        RadiusTopLeft: =40
+        RadiusTopRight: =40
+        Size: =24
+        Text: ="Login"
+        Width: =280
+        X: =168
+        Y: =783
+        ZIndex: =3
+
+    Image4 As image:
+        Height: =320
+        Image: ='human-resources-managers-doing-professional-staff-research-with-magnifier-human-resources-hr-team-work-headhunter-service-concept-illustration_335657-2061'
+        Width: =320
+        X: =148
+        Y: =105
+        ZIndex: =4
+
+    Label1 As label:
+        Color: =RGBA(255, 0, 0, 1)
+        Height: =70
+        Size: =21
+        Text: ="Invalid Username or Password!"
+        Visible: =false
+        Width: =560
+        X: =73
+        Y: =695
+        ZIndex: =5
+

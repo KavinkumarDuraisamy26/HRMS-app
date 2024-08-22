@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "crbea_employees",
+    "MaxGetRowsCount": 500,
     "Name": "Employees",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

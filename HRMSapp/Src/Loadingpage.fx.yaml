@@ -1,0 +1,41 @@
+Loadingpage As screen:
+
+    Image2 As image:
+        Height: =613
+        Image: ='hr-software-min'
+        Width: =510
+        X: =63
+        Y: =219
+        ZIndex: =1
+
+    TextInput1 As text:
+        Align: =Align.Center
+        Default: ="HR Management System"
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =30
+        Width: =560
+        X: =38
+        Y: =149
+        ZIndex: =2
+
+    Image3 As image:
+        Height: =320
+        Image: ='Fading lines'
+        Width: =320
+        X: =158
+        Y: =751
+        ZIndex: =3
+
+    Timer1_1 As timer:
+        AutoStart: =true
+        Duration: =3000
+        Height: =70
+        OnTimerEnd: =Navigate(Loginpage,ScreenTransition.Fade)
+        OnTimerStart: =true
+        Visible: =false
+        Width: =280
+        X: =40
+        Y: =40
+        ZIndex: =4
+
