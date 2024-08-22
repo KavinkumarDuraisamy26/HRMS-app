@@ -1,0 +1,127 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crbea_employeeses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crbea_employees",
+    "Name": "Employees",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crbea_dateofjoining": "Date of Joining",
+      "crbea_department": "Department",
+      "crbea_employeeid": "Employee ID",
+      "crbea_employees_AsyncOperations": "System Jobs",
+      "crbea_employees_BulkDeleteFailures": "Bulk Delete Failures",
+      "crbea_employees_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crbea_employees_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crbea_employees_ProcessSession": "Process Sessions",
+      "crbea_employees_SyncErrors": "Sync Errors",
+      "crbea_employeesid": "Employees",
+      "crbea_name": "Name",
+      "crbea_position": "Position",
+      "crbea_salary": "Salary",
+      "crbea_salary_base": "Salary (Base)",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Employees",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Employees (Views)",
+    "Name": "_crbea_employees_views",
+    "RelatedEntityName": "Employees",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "096935a5-95ae-4f84-89a9-60d8ff4dee73": "Employees Associated View",
+      "57daf846-f328-4fba-93d5-32e1b32f009d": "Employees Lookup View",
+      "6562685c-acce-4e0d-af20-08552e3ffbe6": "Inactive Employees",
+      "962e8adc-d2cc-4ed5-a6ff-03f8ac1903e6": "Employees Advanced Find View",
+      "feccb846-491a-4d84-9324-dda46f03328f": "Active Employees"
+    }
+  },
+  {
+    "DisplayName": "Department (Employees)",
+    "Name": "crbea_employees_crbea_department",
+    "OptionSetInfoNameMapping": {
+      "884450000": "Computer Science",
+      "884450001": "Electrical Engg",
+      "884450002": "Mechanical Engg",
+      "884450003": "Academic Affairs",
+      "884450004": "Training & placement",
+      "884450005": "IT",
+      "884450006": "AI&DS"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crbea_department",
+        "OptionSetReferenceEntityName": "Employees"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crbea_department",
+    "RelatedEntityName": "Employees",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Employees)",
+    "Name": "crbea_employees_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Employees"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Employees",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Employees)",
+    "Name": "crbea_employees_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Employees"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Employees",
+    "Type": "OptionSetInfo"
+  }
+]
