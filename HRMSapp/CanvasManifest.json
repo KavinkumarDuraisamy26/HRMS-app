@@ -134,11 +134,11 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "BrowseScreen",
-    "DetailScreen",
-    "EditScreen",
     "Screen1",
     "Loadingpage",
-    "Loginpage"
+    "Loginpage",
+    "BrowseScreen",
+    "DetailScreen",
+    "EditScreen"
   ]
 }
