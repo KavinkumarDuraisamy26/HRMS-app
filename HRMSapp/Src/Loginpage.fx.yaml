@@ -26,7 +26,7 @@ Loginpage As screen:
         Size: =21
         Width: =436
         X: =90
-        Y: =608
+        Y: =570
         ZIndex: =2
 
     Button1 As button:
@@ -45,7 +45,7 @@ Loginpage As screen:
         Text: ="Login"
         Width: =280
         X: =168
-        Y: =783
+        Y: =752
         ZIndex: =3
 
     Image4 As image:
@@ -63,7 +63,7 @@ Loginpage As screen:
         Text: ="Invalid Username or Password!"
         Visible: =false
         Width: =560
-        X: =73
-        Y: =695
+        X: =72
+        Y: =658
         ZIndex: =5
 

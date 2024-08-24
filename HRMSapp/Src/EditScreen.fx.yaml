@@ -46,11 +46,10 @@
 
     EditForm1 As form:
         DataSource: =[@Employees]
-        Height: =Parent.Height - EditForm1.Y
+        Height: =640
         Item: =BrowseGallery1.Selected
         OnSuccess: =Back()
         Width: =Parent.Width
-        Y: =RectQuickActionBar3.Height
         ZIndex: =5
 
         "'Date of Joining_DataCard2' As typedDataCard.dateTimeEditCard":

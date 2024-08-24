@@ -7,7 +7,7 @@
 
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =Parent.Height - Self.Y
+        Height: =640
         Items: =SortByColumns(Search([@Employees], TextSearchBox1.Text, crbea_employeeid,crbea_name,crbea_position), "crbea_employeeid", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -16,7 +16,7 @@
         TemplatePadding: =0
         TemplateSize: =90
         Width: =Parent.Width
-        Y: =TextSearchBox1.Y + TextSearchBox1.Height
+        Y: =158
         ZIndex: =1
 
         Title1 As label:

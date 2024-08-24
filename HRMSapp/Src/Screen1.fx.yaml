@@ -1,7 +1,7 @@
 Screen1 As screen:
 
     Image1 As image:
-        Height: =1071
+        Height: =955
         Image: =Splash
         Width: =640
         ZIndex: =1

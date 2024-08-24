@@ -5,7 +5,7 @@ Loadingpage As screen:
         Image: ='hr-software-min'
         Width: =510
         X: =63
-        Y: =219
+        Y: =27
         ZIndex: =1
 
     TextInput1 As text:
@@ -24,7 +24,7 @@ Loadingpage As screen:
         Image: ='Fading lines'
         Width: =320
         X: =158
-        Y: =751
+        Y: =320
         ZIndex: =3
 
     Timer1_1 As timer:
