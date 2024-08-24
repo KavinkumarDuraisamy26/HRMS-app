@@ -62,9 +62,10 @@
 
     DetailForm1 As formViewer:
         DataSource: =[@Employees]
-        Height: =640
+        Height: =844
         Item: =BrowseGallery1.Selected
         Width: =Parent.Width
+        Y: =99
         ZIndex: =6
 
         "'Date of Joining_DataCard1' As typedDataCard.textualViewCard":
@@ -78,7 +79,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =0
+            Y: =3
             ZIndex: =1
 
             DataCardKey6 As label:
@@ -117,7 +118,7 @@
             Update: =DataCardValue5.Selected
             Width: =640
             X: =0
-            Y: =1
+            Y: =2
             ZIndex: =1
 
             DataCardKey5 As label:
@@ -187,7 +188,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =2
+            Y: =0
             ZIndex: =1
 
             DataCardKey1 As label:
@@ -225,7 +226,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =3
+            Y: =1
             ZIndex: =1
 
             DataCardKey3 As label:
