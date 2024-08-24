@@ -61,9 +61,9 @@ Loginpage As screen:
         Height: =70
         Size: =21
         Text: ="Invalid Username or Password!"
-        Visible: =false
+        Visible: =varInvalidData
         Width: =560
-        X: =72
-        Y: =658
+        X: =80
+        Y: =661
         ZIndex: =5
 
