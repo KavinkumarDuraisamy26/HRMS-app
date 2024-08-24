@@ -4,8 +4,8 @@ Loadingpage As screen:
         Height: =613
         Image: ='hr-software-min'
         Width: =510
-        X: =63
-        Y: =27
+        X: =38
+        Y: =192
         ZIndex: =1
 
     TextInput1 As text:
@@ -24,7 +24,7 @@ Loadingpage As screen:
         Image: ='Fading lines'
         Width: =320
         X: =158
-        Y: =320
+        Y: =805
         ZIndex: =3
 
     Timer1_1 As timer:

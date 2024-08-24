@@ -65,7 +65,7 @@
         Height: =844
         Item: =BrowseGallery1.Selected
         Width: =Parent.Width
-        Y: =99
+        Y: =136
         ZIndex: =6
 
         "'Date of Joining_DataCard1' As typedDataCard.textualViewCard":
@@ -274,8 +274,8 @@
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
-                X: =30
-                Y: =10
+                X: =22
+                Y: =38
                 ZIndex: =1
 
             DataCardValue4 As label:
