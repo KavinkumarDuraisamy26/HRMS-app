@@ -226,7 +226,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =4
+            Y: =3
             ZIndex: =1
 
             DataCardKey3 As label:
@@ -264,7 +264,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =5
+            Y: =4
             ZIndex: =1
 
             DataCardKey4 As label:
@@ -302,7 +302,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =6
+            Y: =5
             ZIndex: =1
 
             DataCardKey7 As label:
@@ -328,43 +328,5 @@
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey7.Y + DataCardKey7.Height + 5
-                ZIndex: =2
-
-        "'Created On_DataCard1' As typedDataCard.textualViewCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="createdon"
-            Default: =ThisItem.'Created On'
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Employees],DataSourceInfo.DisplayName,createdon)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =640
-            X: =0
-            Y: =8
-            ZIndex: =1
-
-            DataCardKey2 As label:
-                AutoHeight: =true
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue2 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
                 ZIndex: =2
 
